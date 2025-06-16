@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+h1 {
+    margin-left: 48px;
+    font-size: 40px;
+    
+}
+
+
+li {
+    border: 1px solid black;
+    width: 700px;
+    height: 40px;
+    margin-left: 48px;
+    padding-top: 5px;
+    
+    
+    
+}
+
+#blue {
+    background-color: cadetblue;
+    list-style-image: url(./blank-square_icon-icons.com_72853.png);
+    padding-left: 20px;
+    list-style-position:inside;
+    padding-bottom: 50px;
+    font-size: 30px;
+    
+}
+#grey {
+    background-color:beige;
+    list-style-image: url(./checkmark-3_90974.png);
+    padding-left: 20px;
+    list-style-position:inside;
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+#azure {
+    background-color:cornflowerblue;
+    list-style-image: url(./blank-square_icon-icons.com_72853.png);
+    padding-left: 20px;
+    list-style-position:inside;
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+
+#kk {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#ll {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
