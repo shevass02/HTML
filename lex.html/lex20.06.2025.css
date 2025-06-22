@@ -1,0 +1,23 @@
+body {
+    background-image:url(./mountain.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow-x: auto;
+}
+
+div {
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    background-color: aquamarine;
+    font-size: 2em;
+    padding: 10px;
+    opacity: 0.8;
+    
+}
+
+h1 {
+    text-align: center;
+
+}

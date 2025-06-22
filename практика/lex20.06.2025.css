@@ -1,0 +1,19 @@
+body {
+    background-image:url(./mountain.jpg);
+    background-size: cover;
+}
+
+div {
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+    background-color: aquamarine;
+    font-size: 30px;
+    overflow-x: auto;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+}
