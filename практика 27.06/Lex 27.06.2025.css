@@ -1,0 +1,30 @@
+.wrapper {
+  transition: all;
+  animation: dog 10s infinite alternate;
+  border: 2px solid black;
+  height: 550px;
+  width: 550px;
+  overflow: hidden; 
+  
+}
+
+@keyframes dog {
+    0% {}
+    25% {
+        filter: sepia(100%);
+    }
+    75% {
+        border-radius: 100%;
+        filter: co;
+    }
+    100% {
+        border-radius: 0%;
+        transform: rotate(180deg) translate(100px, 0px);
+    }
+}
+
+div{
+    margin: auto;
+    margin-top: 200px;
+    
+}

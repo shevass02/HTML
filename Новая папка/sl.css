@@ -1,0 +1,26 @@
+.wrapper{
+    transition: all;
+    animation: morphAnimation 5s infinite alternate;
+    width: 540px;
+    height: 540px;
+    overflow: hidden;
+}
+
+@keyframes morphAnimation {
+        0% {
+        }
+
+        33.3% {
+            border-radius: 0%;
+            filter: sepia(100%);
+
+        }
+
+        66.6% {
+            border-radius: 50%;
+            filter: contrast(50%);
+        }
+        100% {
+            transform: rotate(180deg) translate(100px, 0px);
+        }
+}

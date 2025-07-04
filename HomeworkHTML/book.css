@@ -1,0 +1,108 @@
+body {
+   background-color: bisque;
+   padding: 50px;
+   font-family: sans-serif;
+   text-align: center;
+}
+
+h1 {
+   font-size: 32px;
+   margin-bottom: 40px;
+}
+
+.canc {
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+}
+
+.pen {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.palette img,
+.calc img {
+   width: 100px;
+   height: 100px;
+   margin-top: 120px;
+}
+
+.book img,
+.paper img {
+   width: 200px;
+   height: 200px;
+}
+
+.pencil img {
+   width: 180px;
+   height: 180px;
+}
+
+.calc,
+.book,
+.paper,
+.palette,
+.pencil {
+   transform: translateY(100px);
+   opacity: 0;
+   animation: slideUp 2s ease forwards;
+}
+
+@keyframes slideUp {
+   to {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+.calc {
+   animation: slideUp 2s ease forwards, rotateCalc 2s ease forwards;
+}
+
+.book {
+   animation: slideUp 2s ease 0.5s forwards, rotateBook 2s ease 0.5s forwards;
+}
+
+.paper {
+   animation: slideUp 2s ease 1s forwards, rotatePaper 2s ease 1s forwards;
+}
+
+.palette {
+   animation: slideUp 2s ease 1.5s forwards, rotatePalette 2s ease 1.5s forwards;
+}
+
+.pencil {
+   animation: slideUp 2s ease 2s forwards, rotatePencil 2s ease 2s forwards;
+}
+
+@keyframes rotateCalc {
+   to {
+      transform: rotate(-20deg);
+   }
+}
+
+@keyframes rotateBook {
+   to {
+      transform: rotate(-10deg);
+   }
+}
+
+@keyframes rotatePaper {
+   to {
+      transform: rotate(10deg);
+   }
+}
+
+@keyframes rotatePalette {
+   to {
+      transform: rotate(20deg);
+   }
+}
+
+@keyframes rotatePencil {
+   to {
+      transform: rotate(90deg);
+   }
+}
